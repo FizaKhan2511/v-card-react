@@ -1,0 +1,128 @@
+
+
+/*pour les ecrans larges*/
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: black;
+}
+
+.vCard {
+  width: 500px;
+  padding: 40px;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.3);
+  background-image: url('backVCard.png');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  text-align: center;
+  margin-bottom: 40px;
+}
+
+.vCard h3 {
+  font-size: 36px;
+  margin-bottom: 20px;
+}
+
+.vCard p {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+/* styles pour les écrans moyens */
+@media screen and (max-width: 991px) {
+  .vCard {
+    width: 80%;
+    padding: 30px;
+    font-size: 24px;
+  }
+
+  .vCard h3 {
+    font-size: 30px;
+    margin-bottom: 15px;
+  }
+
+  .vCard p {
+    font-size: 18px;
+    margin-bottom: 10px;
+  }
+}
+
+/* styles pour les écrans petits */
+@media screen and (max-width: 767px) {
+  .vCard {
+    width: 90%;
+    padding: 20px;
+    font-size: 20px;
+  }
+
+  .vCard h3 {
+    font-size: 26px;
+    margin-bottom: 10px;
+  }
+
+  .vCard p {
+    font-size: 16px;
+    margin-bottom: 5px;
+  }
+}
+
+/* Styles pour les icônes */
+.vCard .icons {
+  margin-top: 10px;
+}
+
+.vCard .icons a {
+  display: inline-block;
+  margin: 0 10px;
+  width: 25px;
+  height: 25px;
+  background-size: cover;
+}
+
+
+/* styles pour les écrans très petits */
+@media screen and (max-width: 479px) {
+  .vCard {
+    width: 90%;
+    padding: 20px;
+    font-size: 18px;
+  }
+
+  .vCard h3 {
+    font-size: 22px;
+    margin-bottom: 10px;
+  }
+
+  .vCard p {
+    font-size: 14px;
+    margin-bottom: 5px;
+  }
+}
+
+ /*styles pour les icônes */
+.vCard .icons {
+  display: flex;
+  justify-content: center;
+  margin-top: 20px;
+}
+
+.vCard .icons a {
+  display: inline-block;
+  margin: 0 10px;
+  width: 30px;
+  height: 30px;
+  background-size: cover;
+}
+
+/*.vCard .icons a.github {
+  background-image: url("icons8-github-squared-64.png");
+}
+
+.vCard .icons a.linkedin {
+  background-image: url('icon-linkedin.svg');
+}*/
