@@ -7,8 +7,8 @@ import './App.css';
 
 
 function VCard() {
-  const github =  "icons8-github-squared-64.png";
-  const linkedin = "linkedinicone.png";
+  const github =  "github.png";
+  const linkedin = "linkedin.png";
   console.log(github);
   return (
    
@@ -19,11 +19,11 @@ function VCard() {
       <p>fizakhan81@outlook.com</p>
       <p>0000-00-00-00</p>
         <div className="icons">
-         <a href="https://github.com/FizaKhan2511" target="_blank" rel="noreferrer">Github
-        { /*<img alt= " " src ={github}/>}*/}
+         <a href="https://github.com/FizaKhan2511" target="_blank" rel="noreferrer">
+        <img alt= " " src ={github}  width="45" height="45" name="git"/>
         </a> 
-        <a href="https://www.linkedin.com/in/nadia-akhtar-bxl/" target="_blank" rel="noreferrer">Linkedin
-         {/*<img alt= " " src={linkedin} />*/}
+        <a href="https://www.linkedin.com/in/nadia-akhtar-bxl/" target="_blank" rel="noreferrer">
+         <img alt= " " src={linkedin} width="45" height="45"/>
         </a>  
          
      </div>

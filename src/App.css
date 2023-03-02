@@ -109,6 +109,7 @@
   display: flex;
   justify-content: center;
   margin-top: 20px;
+  
 }
 
 .vCard .icons a {
@@ -119,10 +120,8 @@
   background-size: cover;
 }
 
-/*.vCard .icons a.github {
-  background-image: url("icons8-github-squared-64.png");
+.vCard .icons a:first-child {
+  margin-right: 50px;
 }
 
-.vCard .icons a.linkedin {
-  background-image: url('icon-linkedin.svg');
-}*/
+
